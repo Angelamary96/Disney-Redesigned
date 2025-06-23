@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.dflex{
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.banner{
+    background: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    background-attachment:scroll;
+    height: 100%;
+}
+.header{
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 20%;
+}
+.menu li{
+    margin-left: 30px;
+}
+.menu li a{
+    
+    color: #fff;
+    font-size: 12px;
+
+}
+.links i{
+    color: #fff;
+}
+.links li{
+    margin-left: 20px;
+}
+.banner-inner img{
+    width: 100%;
+}
+.banner-inner{
+    padding: 0 100px;
+}
+.banner-left{
+    flex-basis: 50%;
+}
+.banner-right{
+    flex-basis: 50%;
+}
+.booking{
+    
+    padding: 0 50px;
+    text-align: center;
+
+}
+.booking span{
+    background: #0f3e84;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.booking p{
+    
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+
+}
+.booking a{
+    
+    background: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #060627;
+    font-size: 12px;
+    border-radius: 21px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+.banner-con{
+    padding: 80px 0;
+}
+.shop{
+    
+    background: #071a4e;
+    padding: 80px 0;
+
+}
+.shop-head{
+    
+    margin: 0 auto 50px;
+    max-width: 316px;
+    text-align: center;
+
+}
+.shop-head h2{
+    
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.more-head {
+    max-width: 450px;
+}
+.more-head img{
+    margin: 0 20px;
+}
+.shop-head img{
+    
+    width: 110px;
+    margin-left: 20px;
+
+}
+.more-box{
+    text-align: center;
+}
+.more-link a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #756c6c;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 18px;
+    display: inline-block;
+}
+.more-box h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+} 
+.shop-box{
+flex-basis: 25%;
+background: #1a3378;
+margin: 0 15px;
+border-radius: 20px;
+}
+.shop-pic{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.shop-pic img{
+  
+    width: 100%;
+}
+.shop-inner{
+    padding: 8px;
+}
+.shop-inner span{
+    color: #fff;
+    padding: 10px;
+   font-size: 16px;
+   font-weight: 600;
+    display: inline-block;
+}
+.shop-inner i{
+    
+    margin-left: 66px;
+    color: #000;
+    background: #ffff;
+    border-radius: 100%;
+    padding: 8px;
+
+}
+.ads{
+    background: #0b2760;
+    padding: 50px 0;
+}
+.ads-head{
+    margin-bottom: 70px;
+}
+.ads-head h2{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+   
+}
+.ads-box, .more-box{
+    flex-basis: 50%;
+    margin: 0 10px;
+}
+.ads-pic img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ads-box h4{
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom:15px;
+}
+.ads-box p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #9da5b5;
+    margin-bottom: 20px;
+}
+.ads-box a{
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    display: inline-block;
+    /* margin-bottom: 20px; */
+    font-weight: 500;
+}
